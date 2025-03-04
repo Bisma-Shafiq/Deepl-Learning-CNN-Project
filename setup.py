@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Deepl-Learning-CNN-Project"
 AUTHOR_USER_NAME = "bismashafiq"
-SRC_REPO = 'Kidney-Disease-Classification'
+SRC_REPO = 'Kidney_Disease_Classification'
 AUTHOR_EMAIL = "bismashafiq26@gmail.com"
 
 setuptools.setup(

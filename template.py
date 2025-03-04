@@ -1,11 +1,10 @@
+import logging
 import os
 from pathlib import Path
-import logging
 
+logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s: ")
 
-logging.basicConfig(level=logging.INFO,format= '[%(asctime)s]: %(message)s: ')
-
-project_name = 'Kidney-Disease-Classification'
+project_name = "Kidney_Disease_Classification"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -23,7 +22,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "templates/index.html"
+    "templates/index.html",
 ]
 
 for filepath in list_of_files:
